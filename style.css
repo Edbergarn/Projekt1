@@ -1,50 +1,54 @@
 
 main {
-	width: 80%;
-	margin: 0 auto;
-	background-color: darkgrey;
-	background-image: url(C:\Users\edem16\Code\Projekt1\bakgrundProjekt1);
-}
-li {
-	margin: 0 auto;
-	min-width: 200px;
 	
-	float: left;
-	border:1px solid black;
+	margin: 0 auto;
+	background-color: lightgreen;
+	text-align: center;
+	width:80%;	
+}
+
+li {
+	display: inline;
+	font-size: 2em;
+	text-align: center; 
 }
 li a:hover {
     background-color: #555;
     color: white;
     }
-nav ul li {
-	font-size: 32px;
-	display: inline;
-	text-align: center; 
-}
-#navbar{
 
-}
-nav ul{
-	background-color: grey;
-	padding-bottom: 67px;	
-}
-h1 {
-	font-size: 30px;
-	font-family: 'Oswald', sans-serif;
-	color: darkblue;
-	text-align: center;
-	padding: 15px;
-}
-.rubrik {
-	background-color: lightblue;
-}
+
 a {
-	color: hotpink;
-	background-color: lightgrey;
+	color: yellow;
+	background-color: magenta;
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+    width: 20.5%;
+
+}
+nav ul{
+	background-color: purple;
+	list-style: none;
+	padding-left: 0px;
+	
+
+} /*
+	text-align: center;
+	padding: 15px;
+*/
+h1 {
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	color: darkblue;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+.rubrik {
+	background-color: lightblue;
+
+
 
 }
 .column1 {
@@ -55,7 +59,7 @@ a {
 	min-height: 400px;
 }
 .column2 {
-	float: right;
+	margin-left: 60%
 	width: 34%;
 	padding: 15px;
 	border: 1px solid black;
@@ -66,6 +70,6 @@ a {
 	display: table;
 	clear: both;
 	margin: auto;
-	width: 80%;
+	width: 100%;
 
 }
