@@ -22,7 +22,7 @@ li a:hover {
 a {
 	color: yellow;
 	background-color: magenta;
-    padding: 14px 25px;
+    padding: 1.5% 2.05%;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
@@ -41,7 +41,7 @@ nav ul{
 */
 h1 {
 	font-size: 3em;
-	color: white;
+	
 	padding-bottom: 0.5em;
 	padding-top: 0.5em;
 }
@@ -62,8 +62,8 @@ margin:0em;
 }
 .Underrubrik {
 	font-family: 'fascinate inline';
+	color: white;
 }
-
 #adressimg {
 	height:23.5em;
 	width: 28.125em;
